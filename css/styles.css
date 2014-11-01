@@ -1,0 +1,57 @@
+.navigationul {
+    list-style-type: none;
+    width: 100px;
+    padding-right: 20px;
+    padding-top: 230px;
+    height: 1000px;
+    float: left;
+    text-align: right;
+}
+
+/*http://www.w3schools.com/css/css_link.asp*/
+.navigationtext {
+    display: block;
+    text-decoration: none;
+    line-height: 300%
+}
+
+.navigationtext:link,
+.navigationtext:visited {
+    color: black;
+}
+
+.navigationtext:hover {
+    color: black;
+    font-weight: bold;
+    background-color: gray;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+    background-color: red;
+    height: 200px;
+    padding-top: 10px;
+    color: yellow;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-align: center;
+    padding-right: 90px;
+}
+
+main {
+    height: 1000px;
+}
+
+.images {
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+.bigimage {
+    height: 122px;
+    width: 800px;
+}
+
