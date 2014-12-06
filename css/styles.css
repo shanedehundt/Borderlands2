@@ -1,29 +1,43 @@
+/*Voornamelijk w3schools gebruikt als bron voor code als ik een tag niet wist, en de css van Chtulu van Justus als hulpmiddel*/
+
+/*http://www.w3schools.com/css/css_link.asp*/
+/*http://www.w3schools.com/cssref/pr_class_float.asp*/
+/*http://www.w3schools.com/cssref/pr_border-style.asp*/
+
+
+/*Dit zijn de github bestanden uit de werkgroep, deze heb ik vooral gebruikt als ik een tag zelf niet wist.*/
+/*https://github.com/CMDA/InternetStandaarden/blob/gh-pages/werkgroep5/demo/menuleft.css*/
+/*https://github.com/CMDA/InternetStandaarden/blob/gh-pages/werkgroep5/demo/index.html*/
+
+/*Ik heb vooral met padding gewerkt om de verdeling van de website te bepalen*/
+/*En ik kreeg als feedback dat ik beter met 'em' mijn hoeveelheden kon aangeven maar dit vond ik niet handig werken met afbeelding want dan blijft de ascpect ratio niet correct. Dus ik heb dit alleen voor font-size gebruikt.*/
+
 .navigationul {
     list-style-type: none;
     width: 100px;
     padding-right: 20px;
-    padding-top: 230px;
+    padding-top: 150px;
     height: 1000px;
     float: left;
-    text-align: right;
+    text-align: center;
 }
 
-/*http://www.w3schools.com/css/css_link.asp*/
 .navigationtext {
     display: block;
     text-decoration: none;
-    line-height: 300%
+    line-height: 300%;
+    color: white;
 }
 
 .navigationtext:link,
 .navigationtext:visited {
-    color: black;
+    color: white;
 }
 
 .navigationtext:hover {
-    color: black;
+    color: #fed712;
     font-weight: bold;
-    background-color: gray;
+    background-color: #9b3506;
 }
 
 body {
@@ -31,10 +45,20 @@ body {
 }
 
 h1 {
-    background-color: red;
-    height: 200px;
+    background-color: #9b3506;
+    height: 50px;
     padding-top: 10px;
-    color: yellow;
+    color: #fed712;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-align: center;
+    padding-right: 90px;
+}
+
+h2 {
+    background-color: #9b3506;
+    height: 30px;
+    padding-top: 5px;
+    color: #fed712;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     text-align: center;
     padding-right: 90px;
@@ -42,16 +66,115 @@ h1 {
 
 main {
     height: 1000px;
+    margin: 0 auto;
+
+}
+
+main article {
+    text-align: justify;
 }
 
 .images {
     height: 50px;
     width: 50px;
-    float: right;
+    border: 1px;
+    border-style: solid;
+    border-color: #fed712;
 }
 
 .bigimage {
-    height: 122px;
-    width: 800px;
+    height: 120px;
+    width: 659px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
+    border-style: solid;
+    border-color: #fed712
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
+article ul {
+    float: left;
+}
+
+.navigationtextactive {
+    color: #fed712;
+    font-weight: bold;
+    background-color: #9b3506;
+    display: block;
+    text-decoration: none;
+    line-height: 300%;
+}
+
+section {
+    float: right;
+    padding-right: 70px;
+}
+
+section h3 {
+    text-align: center;
+    color: #fed712;
+}
+
+section figure img {
+    width: 150px;
+    height: 150px;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 100px;
+    padding-right: 100px;
+}
+
+.shanefranka {
+    width: 300px;
+    height: 200px;
+    border: 3px;
+    border-style: solid;
+    border-color: #fed712;
+}
+
+dl dt {
+    color: #fed712;
+}
+
+article ul li a {
+    color: #fed712;
+
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    height: 100px;
+    font-size: 0.9em;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.7em;
+    color: #fed712;
+}
+
+.karakter {
+    float: right;
+    overflow: hidden;
+}
+
+.karakter img {
+    display: block;
+    padding-top: 2px;
+}
